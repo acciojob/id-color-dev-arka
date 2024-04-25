@@ -1,6 +1,6 @@
-/*  your css code here. If applicable */
+/* styles.css */
+
 #yellow {
-	border-top-width: 1px;
   background-color: yellow;
   border: 3px solid green;
 }
@@ -13,4 +13,35 @@
 #green {
   background-color: green;
   border: 3px solid yellow;
+}
+
+/* Additional styles for border colors and widths */
+#yellow,
+#red,
+#green {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+
+#yellow {
+  border-top-color: rgb(0, 128, 0);
+  border-bottom-color: rgb(0, 128, 0);
+  border-left-color: rgb(0, 128, 0);
+  border-right-color: rgb(0, 128, 0);
+}
+
+#red {
+  border-top-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+}
+
+#green {
+  border-top-color: rgb(255, 255, 0);
+  border-bottom-color: rgb(255, 255, 0);
+  border-left-color: rgb(255, 255, 0);
+  border-right-color: rgb(255, 255, 0);
 }
